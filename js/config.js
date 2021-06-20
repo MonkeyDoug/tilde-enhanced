@@ -7,16 +7,22 @@ const CONFIG = {
    * Update line 11 and 13 if you prefer using Google.
    */
   commands: [{
-      name: 'Duckduckgo',
+      name: 'Google',
       key: '*',
-      url: 'https://duckduckgo.com',
+      url: 'https://google.com',
       search: '/?q={}'
+    },
+      category: 'General',
+      name: 'Links',
+      key: 'ql',
+      url: 'https://zombiefox.github.io/hexagonTab/#menu-content-item-accent',
+      quickLaunch: true,
     },
     {
       category: 'General',
       name: 'Mail',
       key: 'm',
-      url: 'https://gmail.com',
+      url: 'https://mail.google.com/mail/u/1/#inbox',
       search: '/#search/text={}',
       color: 'linear-gradient(135deg, #dd5145, #dd5145)',
       icon: 'mail',
@@ -34,21 +40,19 @@ const CONFIG = {
     },
     {
       category: 'General',
-      name: 'Telegram',
-      key: 'tg',
-      url: 'https://web.telegram.org',
+      name: 'Kami',
+      key: 'ka',
+      url: 'https://web.kamihq.com/web/viewer.html',
       color: '#5682a3',
-      icon: 'telegram',
       quickLaunch: false,
     },
     {
       category: 'General',
-      name: 'WhatsApp',
-      key: 'w',
-      url: 'https://web.whatsapp.com',
+      name: 'Canvas',
+      key: 'c',
+      url: 'https://jerichoschools.instructure.com/',
       color: 'linear-gradient(135deg, #25D366, #128C7E, #075E54)',
-      icon: 'whatsapp',
-      quickLaunch: false,
+      quickLaunch: true,
     },
     {
       category: 'General',
@@ -103,12 +107,11 @@ const CONFIG = {
     },
     {
       category: 'Programming',
-      name: 'DevDocs',
-      key: 'dd',
-      url: 'https://devdocs.io',
+      name: 'Codeforces',
+      key: 'cf',
+      url: 'https://codeforces.com/',
       color: 'linear-gradient(135deg, #33373A, #484949)',
-      icon: 'devdocs',
-      quickLaunch: false,
+      quickLaunch: true,
     },
 
 
@@ -164,26 +167,23 @@ const CONFIG = {
 
 
     {
-      category: 'Other',
-      name: 'Twitter',
-      key: 't',
-      url: 'https://www.twitter.com',
-      search: '/search?q={}&src=typed_query',
+      category: 'Misc',
+      name: 'Wharton Summer Program',
+      key: 'w',
+      url: 'https://whartononline.instructure.com/courses/689',
       color: 'linear-gradient(135deg, #1DA1F2, #19608F)',
-      icon: 'twitter',
       quickLaunch: true,
     },
     {
-      category: 'Other',
-      name: 'Instagram',
-      key: 'i',
-      url: 'https://www.instagram.com',
+      category: 'Misc',
+      name: 'Trading View',
+      key: 't',
+      url: 'https://www.tradingview.com/chart/',
       color: 'linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d)',
-      icon: 'instagram',
       quickLaunch: true,
     },
     {
-      category: 'Other',
+      category: 'Misc',
       name: 'LinkedIn',
       key: 'l',
       url: 'https://linkedin.com',
@@ -193,16 +193,15 @@ const CONFIG = {
       quickLaunch: true,
     },
     {
-      category: 'Other',
-      name: 'Notion',
-      key: 'ns',
-      url: 'https://www.notion.so',
+      category: 'Misc',
+      name: 'Macrotrends',
+      key: 'ma',
+      url: 'https://www.macrotrends.net/stocks/research',
       color: 'linear-gradient(135deg, #FFF, #3F3F3F)',
-      icon: 'notion',
       quickLaunch: true,
     },
     {
-      category: 'Other',
+      category: 'Misc',
       name: 'Translate',
       key: 'tr',
       url: 'https://translate.google.com/',
@@ -258,7 +257,7 @@ const CONFIG = {
    * Instantly redirect when a key is matched. Put a space before any other
    * queries to prevent unwanted redirects.
    */
-  instantRedirect: false,
+  instantRedirect: true,
 
   /**
    * Open triggered queries in a new tab.
