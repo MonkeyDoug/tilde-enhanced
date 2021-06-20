@@ -36,7 +36,7 @@ const CONFIG = {
       search: '/drive/search?q={}',
       color: 'linear-gradient(135deg, #FFD04B, #1EA362, #4688F3)',
       icon: 'drive',
-      quickLaunch: false,
+      quickLaunch: true,
     },
     {
       category: 'General',
@@ -44,12 +44,12 @@ const CONFIG = {
       key: 'ka',
       url: 'https://web.kamihq.com/web/viewer.html',
       color: '#5682a3',
-      quickLaunch: false,
+      quickLaunch: true,
     },
     {
       category: 'General',
       name: 'Canvas',
-      key: 'c',
+      key: 'ca',
       url: 'https://jerichoschools.instructure.com/',
       color: 'linear-gradient(135deg, #25D366, #128C7E, #075E54)',
       quickLaunch: true,
@@ -61,7 +61,7 @@ const CONFIG = {
       url: 'https://discord.com/app',
       color: '#7289da',
       icon: 'discord',
-      quickLaunch: false,
+      quickLaunch: true,
     },
 
 
@@ -84,26 +84,6 @@ const CONFIG = {
       color: 'linear-gradient(135deg, #53341C, #F48024)',
       icon: 'stackoverflow',
       quickLaunch: true,
-    },
-    {
-      category: 'Programming',
-      name: 'HackerNews',
-      key: 'h',
-      url: 'https://news.ycombinator.com/',
-      search: '/search?stories[query]={}',
-      color: 'linear-gradient(135deg, #FF6600, #DC5901)',
-      icon: 'hackernews',
-      quickLaunch: true,
-    },
-    {
-      category: 'Programming',
-      name: 'MDN',
-      key: 'md',
-      url: 'https://developer.mozilla.org/en-US',
-      search: '/search?q={}',
-      color: '#212121',
-      icon: 'mdn',
-      quickLaunch: false,
     },
     {
       category: 'Programming',
@@ -133,7 +113,7 @@ const CONFIG = {
       search: '/search?q={}',
       color: 'linear-gradient(135deg, #FF8456, #FF4500)',
       icon: 'reddit',
-      quickLaunch: false,
+      quickLaunch: true,
     },
     {
       category: 'Fun',
@@ -142,7 +122,7 @@ const CONFIG = {
       url: 'https://www.netflix.com',
       color: 'linear-gradient(135deg, #E50914, #CB020C)',
       icon: 'netflix',
-      quickLaunch: false,
+      quickLaunch: true,
     },
     {
       category: 'Fun',
@@ -152,7 +132,7 @@ const CONFIG = {
       search: '/search/{}',
       color: '#1dd35e',
       icon: 'spotify',
-      quickLaunch: false,
+      quickLaunch: true,
     },
     {
       category: 'Fun',
@@ -162,7 +142,7 @@ const CONFIG = {
       search: '/directory/game/{}',
       color: 'linear-gradient(135deg, #6441a5, #4b367c)',
       icon: 'twitch',
-      quickLaunch: false,
+      quickLaunch: true,
     },
 
 
@@ -208,7 +188,7 @@ const CONFIG = {
       search: '/#view=home&op=translate&sl=auto&tl=en&text={}',
       color: '#1a73e8',
       icon: 'translate',
-      quickLaunch: false,
+      quickLaunch: true,
     },
   ],
 
