@@ -14,6 +14,13 @@ const CONFIG = {
     },
     {
       category: 'General',
+      name: 'Links',
+      key: 'ql',
+      url: 'https://zombiefox.github.io/hexagonTab/',
+      quickLaunch: true,
+    },
+    {
+      category: 'General',
       name: 'Mail',
       key: 'm',
       url: 'https://gmail.com',
@@ -258,7 +265,7 @@ const CONFIG = {
    * Instantly redirect when a key is matched. Put a space before any other
    * queries to prevent unwanted redirects.
    */
-  instantRedirect: false,
+  instantRedirect: true,
 
   /**
    * Open triggered queries in a new tab.
