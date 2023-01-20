@@ -10,7 +10,7 @@ const CONFIG = {
       name: 'Google',
       key: '*',
       url: 'https://google.com',
-      color: '#39375b',
+      color: '#282a36',
       search: '/search?q={}'
     },
     {
@@ -18,7 +18,7 @@ const CONFIG = {
       name: 'Links',
       key: 'ql',
       url: 'https://zombiefox.github.io/hexagonTab/',
-      color: '#39375b',
+      color: '#282a36',
       quickLaunch: true,
     },
     {
